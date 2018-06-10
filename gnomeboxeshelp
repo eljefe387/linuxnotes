@@ -1,0 +1,7 @@
+# gnome boxes ubuntu
+## fix
+- need to go into the .conf//libvirt/qemu.conf
+  - Here you add
+    - group = kvm
+    - then add yourself
+      - kvm eljefe
